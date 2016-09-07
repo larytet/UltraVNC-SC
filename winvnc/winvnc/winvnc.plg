@@ -1,0 +1,465 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Xregion - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/Xregion.pch" /YX /Fo"Release/" /Fd"Release/" /FD /QaxWK /O3 /c 
+"C:\cpp\SC\Z_SC\Xregion\Region.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP7.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\Xregion.lib"  .\Release\Region.obj "
+<h3>Output Window</h3>
+Compiling...
+Command line warning D4002 : ignoring unknown option '/QaxWK'
+Command line warning D4002 : ignoring unknown option '/O3'
+Region.c
+Creating library...
+
+
+
+<h3>Results</h3>
+Xregion.lib - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: omnithread - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "__NT__" /D "_WINSTATIC" /D "__WIN32__" /D _WIN32_WINNT=0x400 /Fp"Release/omnithread.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\cpp\SC\Z_SC\winvnc\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP8.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\omnithread.lib"  .\Release\nt.obj "
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+omnithread.lib - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: rdr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /I ".." /I "../zlib" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/rdr.pch" /YX /Fo"Release/" /Fd"Release/" /FD /O3 /QaxM /Qip /Qsox- /c 
+"C:\cpp\SC\Z_SC\rdr\FdInStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\FdOutStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\InStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\NullOutStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\ZlibInStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\ZlibOutStream.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP9.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\rdr.lib"  .\Release\FdInStream.obj .\Release\FdOutStream.obj .\Release\InStream.obj .\Release\NullOutStream.obj .\Release\ZlibInStream.obj .\Release\ZlibOutStream.obj "
+<h3>Output Window</h3>
+Compiling...
+Command line warning D4002 : ignoring unknown option '/O3'
+Command line warning D4002 : ignoring unknown option '/QaxM'
+Command line warning D4002 : ignoring unknown option '/Qip'
+Command line warning D4002 : ignoring unknown option '/Qsox-'
+FdInStream.cxx
+FdOutStream.cxx
+InStream.cxx
+NullOutStream.cxx
+ZlibInStream.cxx
+ZlibOutStream.cxx
+Creating library...
+
+
+
+<h3>Results</h3>
+rdr.lib - 0 error(s), 4 warning(s)
+<h3>
+--------------------Configuration: vnchooks - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"..\Release/VNCHooks.res" /d "NDEBUG" "C:\cpp\SC\Z_SC\winvnc\vnchooks\VNCHooks.rc"" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MT /W3 /GX /O1 /D "NDEBUG" /D "__WIN32__" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VNCHOOKS_EXPORTS" /D _WIN32_WINNT=0x400 /Fp"..\Release/vnchooks.pch" /YX /Fo"..\Release/" /Fd"..\Release/" /FD /O3 /QaxM /Qip /c 
+"C:\cpp\SC\Z_SC\winvnc\vnchooks\VNCHooks.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPA.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+user32.lib advapi32.lib gdi32.lib oleaut32.lib /nologo /dll /incremental:no /pdb:"..\Release/vnchooks.pdb" /machine:I386 /def:".\VNCHooks.def" /out:"..\Release/vnchooks.dll" /implib:"..\Release/vnchooks.lib" /OPT:REF 
+\cpp\SC\Z_SC\winvnc\Release\VNCHooks.obj
+\cpp\SC\Z_SC\winvnc\Release\VNCHooks.res
+]
+Creating command line "link.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Command line warning D4002 : ignoring unknown option '/O3'
+Command line warning D4002 : ignoring unknown option '/QaxM'
+Command line warning D4002 : ignoring unknown option '/Qip'
+VNCHooks.cpp
+Linking...
+   Creating library ..\Release/vnchooks.lib and object ..\Release/vnchooks.exp
+
+
+
+<h3>Results</h3>
+vnchooks.dll - 0 error(s), 3 warning(s)
+<h3>
+--------------------Configuration: omnithread - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "__NT__" /D "_WINSTATIC" /D "__WIN32__" /D _WIN32_WINNT=0x400 /Fp"Release/omnithread.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\cpp\SC\Z_SC\winvnc\omnithread\nt.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\omnithread.lib"  .\Release\nt.obj "
+<h3>Output Window</h3>
+Compiling...
+nt.cpp
+Creating library...
+<h3>
+--------------------Configuration: rdr - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /I ".." /I "../zlib" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/rdr.pch" /YX /Fo"Release/" /Fd"Release/" /FD /O3 /QaxM /Qip /Qsox- /c 
+"C:\cpp\SC\Z_SC\rdr\FdInStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\FdOutStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\InStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\NullOutStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\ZlibInStream.cxx"
+"C:\cpp\SC\Z_SC\rdr\ZlibOutStream.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP10.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\rdr.lib"  .\Release\FdInStream.obj .\Release\FdOutStream.obj .\Release\InStream.obj .\Release\NullOutStream.obj .\Release\ZlibInStream.obj .\Release\ZlibOutStream.obj "
+<h3>Output Window</h3>
+Compiling...
+Command line warning D4002 : ignoring unknown option '/O3'
+Command line warning D4002 : ignoring unknown option '/QaxM'
+Command line warning D4002 : ignoring unknown option '/Qip'
+Command line warning D4002 : ignoring unknown option '/Qsox-'
+FdInStream.cxx
+FdOutStream.cxx
+InStream.cxx
+NullOutStream.cxx
+ZlibInStream.cxx
+ZlibOutStream.cxx
+Creating library...
+<h3>
+--------------------Configuration: Xregion - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/Xregion.pch" /YX /Fo"Release/" /Fd"Release/" /FD /QaxWK /O3 /c 
+"C:\cpp\SC\Z_SC\Xregion\Region.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP11.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\Xregion.lib"  .\Release\Region.obj "
+<h3>Output Window</h3>
+Compiling...
+Command line warning D4002 : ignoring unknown option '/QaxWK'
+Command line warning D4002 : ignoring unknown option '/O3'
+Region.c
+Creating library...
+<h3>
+--------------------Configuration: zlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/zlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /QaxWK /O3 /c 
+"C:\cpp\SC\Z_SC\zlib\adler32.c"
+"C:\cpp\SC\Z_SC\zlib\compress.c"
+"C:\cpp\SC\Z_SC\zlib\crc32.c"
+"C:\cpp\SC\Z_SC\zlib\deflate.c"
+"C:\cpp\SC\Z_SC\zlib\gzio.c"
+"C:\cpp\SC\Z_SC\zlib\inffast.c"
+"C:\cpp\SC\Z_SC\zlib\inflate.c"
+"C:\cpp\SC\Z_SC\zlib\inftrees.c"
+"C:\cpp\SC\Z_SC\zlib\trees.c"
+"C:\cpp\SC\Z_SC\zlib\uncompr.c"
+"C:\cpp\SC\Z_SC\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP12.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /out:"Release\zlib.lib" 
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\deflate.obj
+.\Release\gzio.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP13.tmp"
+<h3>Output Window</h3>
+Compiling...
+Command line warning D4002 : ignoring unknown option '/QaxWK'
+Command line warning D4002 : ignoring unknown option '/O3'
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+<h3>
+--------------------Configuration: winvnc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"..\Release/winvnc.res" /d "NDEBUG" "C:\cpp\SC\Z_SC\winvnc\winvnc\winvnc.rc"" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O1 /I "..\omnithread" /I ".." /I "..\.." /D "NDEBUG" /D "__x86__" /D "__WIN32__" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D _WIN32_WINNT=0x501 /D "XMD_H" /D "_WINSTATIC" /D "SINGLECLICKULTRA" /D _WIN32_IE=0x0500 /Fp"..\Release/winvnc.pch" /YX /Fo"..\Release/" /Fd"..\Release/" /FD /O3 /QaxWK /c 
+"C:\cpp\SC\Z_SC\winvnc\winvnc\black_layered.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\buildtime.cpp"
+"C:\cpp\SC\Z_SC\DSMPlugin\DSMPlugin.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\Dtwinver.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\HideDesktop.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\IPC.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\rebootsafemode.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\rfbRegion_win32.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\rfbUpdateTracker.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\stdhdrs.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\Test.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\TextChat.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\translate.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\videodriver.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\videodrivercheck.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncabout.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncclient.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktop.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncDesktopSW.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktopthread.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncencodehext.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncencoder.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncencoderCursor.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncencodezrle.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncinsthandler.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vnckeymap.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vnclog.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncmenu.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncMultiMonitor.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncOSVersion.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncproperties.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncpropertiesPoll.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncserver.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncservice.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncsockconnect.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vsocket.cpp"
+"C:\cpp\SC\Z_SC\winvnc\winvnc\winvnc.cpp"
+"C:\cpp\SC\Z_SC\ZipUnZip32\ZipUnzip32.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP14.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP15.bat" with contents
+[
+@echo off
+cl /nologo /MT /Fo..\Release\ /Fd..\Release\ /c buildtime.cpp
+]
+Creating command line "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP15.bat"
+Compiling resources...
+Compiling...
+Command line warning D4002 : ignoring unknown option '/O3'
+Command line warning D4002 : ignoring unknown option '/QaxWK'
+black_layered.cpp
+buildtime.cpp
+DSMPlugin.cpp
+C:\cpp\SC\Z_SC\DSMPlugin\DSMPlugin.cpp(297) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\cpp\SC\Z_SC\DSMPlugin\DSMPlugin.cpp(356) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Dtwinver.cpp
+HideDesktop.cpp
+IPC.cpp
+rebootsafemode.cpp
+rfbRegion_win32.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\rfbRegion_win32.cpp(105) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+rfbUpdateTracker.cpp
+stdhdrs.cpp
+Test.cpp
+TextChat.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+translate.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\tableinitcmtemplate.cpp(72) : warning C4018: '<' : signed/unsigned mismatch
+C:\cpp\SC\Z_SC\winvnc\winvnc\tableinitcmtemplate.cpp(72) : warning C4018: '<' : signed/unsigned mismatch
+C:\cpp\SC\Z_SC\winvnc\winvnc\tableinitcmtemplate.cpp(72) : warning C4018: '<' : signed/unsigned mismatch
+videodriver.cpp
+videodrivercheck.cpp
+vncabout.cpp
+vncbuffer.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1096) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1097) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1098) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1098) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncclient.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncclient.cpp(1262) : warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncdesktop.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktop.cpp(706) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktop.cpp(706) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktop.cpp(802) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktop.cpp(2339) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(39) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+        C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(39) : while compiling class-template member function '__thiscall std::vector<std::vector<unsigned long,std::allocator<unsigned long> > *,std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> >::std::vector<std::vector<unsigned long,std::allocator<unsigned long> > *,std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> >(const std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> &)'
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(39) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+        C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(39) : while compiling class-template member function '__thiscall std::vector<std::vector<unsigned long,std::allocator<unsigned long> > *,std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> >::std::vector<std::vector<unsigned long,std::allocator<unsigned long> > *,std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> >(const std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> &)'
+vncDesktopSW.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\vector(60) : warning C4786: 'std::vector<std::vector<unsigned long,std::allocator<unsigned long> > *,std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> >::~vector<std::vector<unsigned long,std::allocator<unsigned long> > *,std::allocator<std::vector<unsigned long,std::allocator<unsigned long> > *> >' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xtree(183) : warning C4786: 'std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::~_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncdesktopthread.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktopthread.cpp(469) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktopthread.cpp(609) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncdesktopthread.cpp(1018) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncencodehext.cpp
+vncencoder.cpp
+vncencoderCursor.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncencodezrle.cpp
+vncinsthandler.cpp
+vnckeymap.cpp
+vnclog.cpp
+vncmenu.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncMultiMonitor.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncOSVersion.cpp
+vncproperties.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncpropertiesPoll.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncserver.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncservice.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vncsockconnect.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+vsocket.cpp
+winvnc.cpp
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::pair<std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator,std::_Tree<HWND__ *,HWND__ *,std::set<HWND__ *,std::less<HWND__ *>,std::allocator<HWND__ *> >::_Kfn,std::less<HWND__ *>,std::allocator<HWND__ *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * const *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * const &,std::vector<unsigned long,std::allocator<unsigned long> > * const *,int>' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<unsigned long,std::allocator<unsigned long> > * *,std::vector<unsigned long,std::allocator<unsigned long> > *,std::vector<unsigned long,std::allocator<unsigned long> > * &,std::vector<unsigned long,std::allocator<unsigned long> > * *,int>' : identifier was truncated to '255' characters in the debug information
+ZipUnzip32.cpp
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+wsock32.lib winmm.lib kernel32.lib user32.lib gdi32.lib shell32.lib advapi32.lib ole32.lib version.lib comctl32.lib /nologo /subsystem:windows /incremental:no /pdb:"..\Release/winvnc.pdb" /machine:I386 /out:"..\Release/winvnc.exe" 
+\cpp\SC\Z_SC\winvnc\Release\black_layered.obj
+\cpp\SC\Z_SC\winvnc\Release\buildtime.obj
+\cpp\SC\Z_SC\winvnc\Release\DSMPlugin.obj
+\cpp\SC\Z_SC\winvnc\Release\Dtwinver.obj
+\cpp\SC\Z_SC\winvnc\Release\HideDesktop.obj
+\cpp\SC\Z_SC\winvnc\Release\IPC.obj
+\cpp\SC\Z_SC\winvnc\Release\rebootsafemode.obj
+\cpp\SC\Z_SC\winvnc\Release\rfbRegion_win32.obj
+\cpp\SC\Z_SC\winvnc\Release\rfbUpdateTracker.obj
+\cpp\SC\Z_SC\winvnc\Release\stdhdrs.obj
+\cpp\SC\Z_SC\winvnc\Release\Test.obj
+\cpp\SC\Z_SC\winvnc\Release\TextChat.obj
+\cpp\SC\Z_SC\winvnc\Release\translate.obj
+\cpp\SC\Z_SC\winvnc\Release\videodriver.obj
+\cpp\SC\Z_SC\winvnc\Release\videodrivercheck.obj
+\cpp\SC\Z_SC\winvnc\Release\vncabout.obj
+\cpp\SC\Z_SC\winvnc\Release\vncbuffer.obj
+\cpp\SC\Z_SC\winvnc\Release\vncclient.obj
+\cpp\SC\Z_SC\winvnc\Release\vncdesktop.obj
+\cpp\SC\Z_SC\winvnc\Release\vncDesktopSW.obj
+\cpp\SC\Z_SC\winvnc\Release\vncdesktopthread.obj
+\cpp\SC\Z_SC\winvnc\Release\vncencodehext.obj
+\cpp\SC\Z_SC\winvnc\Release\vncencoder.obj
+\cpp\SC\Z_SC\winvnc\Release\vncencoderCursor.obj
+\cpp\SC\Z_SC\winvnc\Release\vncencodezrle.obj
+\cpp\SC\Z_SC\winvnc\Release\vncinsthandler.obj
+\cpp\SC\Z_SC\winvnc\Release\vnckeymap.obj
+\cpp\SC\Z_SC\winvnc\Release\vnclog.obj
+\cpp\SC\Z_SC\winvnc\Release\vncmenu.obj
+\cpp\SC\Z_SC\winvnc\Release\vncMultiMonitor.obj
+\cpp\SC\Z_SC\winvnc\Release\vncOSVersion.obj
+\cpp\SC\Z_SC\winvnc\Release\vncproperties.obj
+\cpp\SC\Z_SC\winvnc\Release\vncpropertiesPoll.obj
+\cpp\SC\Z_SC\winvnc\Release\vncserver.obj
+\cpp\SC\Z_SC\winvnc\Release\vncservice.obj
+\cpp\SC\Z_SC\winvnc\Release\vncsockconnect.obj
+\cpp\SC\Z_SC\winvnc\Release\vsocket.obj
+\cpp\SC\Z_SC\winvnc\Release\winvnc.obj
+\cpp\SC\Z_SC\winvnc\Release\ZipUnzip32.obj
+\cpp\SC\Z_SC\winvnc\Release\winvnc.res
+\cpp\SC\Z_SC\winvnc\omnithread\Release\omnithread.lib
+\cpp\SC\Z_SC\rdr\Release\rdr.lib
+\cpp\SC\Z_SC\Xregion\Release\Xregion.lib
+\cpp\SC\Z_SC\zlib\Release\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP16.tmp"
+
+buildtime.cpp
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+winvnc.exe - 0 error(s), 89 warning(s)
+</pre>
+</body>
+</html>

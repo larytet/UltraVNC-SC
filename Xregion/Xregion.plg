@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: winvnc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP3E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\omnithread" /I ".." /I "..\.." /D "_DEBUG" /D "__x86__" /D "__WIN32__" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "XMD_H" /D "_WINSTATIC" /D "SINGLECLICKULTRA" /D _WIN32_WINNT=0x501 /D _WIN32_IE=0x0500 /Fr"..\Debug/" /Fp"..\Debug/winvnc.pch" /YX /Fo"..\Debug/" /Fd"..\Debug/" /FD /GZ /c 
+"C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP3E.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP3F.bat" with contents
+[
+@echo off
+cl /nologo /MTd /Fo..\Debug\ /Fd..\Debug\ /c buildtime.cpp
+]
+Creating command line "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP3F.bat"
+Compiling...
+vncbuffer.cpp
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1096) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1097) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1098) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+C:\cpp\SC\Z_SC\winvnc\winvnc\vncbuffer.cpp(1098) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP40.tmp" with contents
+[
+ws2_32.lib winmm.lib kernel32.lib user32.lib gdi32.lib shell32.lib advapi32.lib ole32.lib version.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\Debug/winvnc.pdb" /debug /machine:I386 /out:"..\Debug/winvnc.exe" 
+\cpp\SC\Z_SC\winvnc\Debug\black_layered.obj
+\cpp\SC\Z_SC\winvnc\Debug\buildtime.obj
+\cpp\SC\Z_SC\winvnc\Debug\DSMPlugin.obj
+\cpp\SC\Z_SC\winvnc\Debug\Dtwinver.obj
+\cpp\SC\Z_SC\winvnc\Debug\HideDesktop.obj
+\cpp\SC\Z_SC\winvnc\Debug\IPC.obj
+\cpp\SC\Z_SC\winvnc\Debug\rebootsafemode.obj
+\cpp\SC\Z_SC\winvnc\Debug\rfbRegion_X11.obj
+\cpp\SC\Z_SC\winvnc\Debug\rfbUpdateTracker.obj
+\cpp\SC\Z_SC\winvnc\Debug\stdhdrs.obj
+\cpp\SC\Z_SC\winvnc\Debug\Test.obj
+\cpp\SC\Z_SC\winvnc\Debug\TextChat.obj
+\cpp\SC\Z_SC\winvnc\Debug\translate.obj
+\cpp\SC\Z_SC\winvnc\Debug\videodriver.obj
+\cpp\SC\Z_SC\winvnc\Debug\videodrivercheck.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncabout.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncbuffer.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncclient.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncdesktop.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncDesktopSW.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncdesktopthread.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncencodehext.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncencoder.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncencoderCursor.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncencodezrle.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncinsthandler.obj
+\cpp\SC\Z_SC\winvnc\Debug\vnckeymap.obj
+\cpp\SC\Z_SC\winvnc\Debug\vnclog.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncmenu.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncMultiMonitor.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncOSVersion.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncproperties.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncpropertiesPoll.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncserver.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncservice.obj
+\cpp\SC\Z_SC\winvnc\Debug\vncsockconnect.obj
+\cpp\SC\Z_SC\winvnc\Debug\vsocket.obj
+\cpp\SC\Z_SC\winvnc\Debug\winvnc.obj
+\cpp\SC\Z_SC\winvnc\Debug\ZipUnzip32.obj
+\cpp\SC\Z_SC\winvnc\Debug\winvnc.res
+\cpp\SC\Z_SC\winvnc\omnithread\Debug\omnithread.lib
+\cpp\SC\Z_SC\rdr\Debug\rdr.lib
+\cpp\SC\Z_SC\Xregion\Debug\Xregion.lib
+\cpp\SC\Z_SC\zlib\Debug\zlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP40.tmp"
+
+buildtime.cpp
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+winvnc.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
