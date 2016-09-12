@@ -358,10 +358,13 @@ vncEncodeMgr::SetEncoding(CARD32 encoding,BOOL reinitialize)
 	case rfbEncodingZlib:
 	case rfbEncodingZlibHex:
 	case rfbEncodingZRLE:
+#if 0
 		vnclog.Print(LL_INTINFO, VNCLOG("ZRLE encoder requested\n"));
 		if (!zrleEncoder)
 			zrleEncoder = new vncEncodeZRLE;
-		m_encoder = zrleEncoder;
+#endif
+		vnclog.Print(LL_INTINFO, VNCLOG("ZRLE encoder requested - force vncEncodeHexT\n"));
+		m_encoder = new vncEncodeHexT;
 		break;
 
 	default:

@@ -608,8 +608,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine,
 
 	// Configure the log file, in case one is required
 	vnclog.SetFile("WinVNC.log", false);
-	vnclog.SetMode(0);
-	vnclog.SetLevel(0);
+	vnclog.SetMode(VNCLog::ToFile);
+	vnclog.SetLevel(LL_ALL);
 	//Load command line from extra menu
 	{
 		    INITCOMMONCONTROLSEX InitCtrls;
